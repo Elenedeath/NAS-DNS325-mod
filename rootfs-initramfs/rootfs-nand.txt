@@ -35,11 +35,7 @@ aptsources=grip3-updates grip3 wheezy
 cleanup=true
 
 [grip3]
-packages=udev kmod mtd-utils evtest
-packages=apt
-packages=netbase net-tools ifupdown pump iputils-ping
-packages=dropbear
-packages=vim-tiny mc htop less usbutils bash-completion screen ntpdate parted
+packages=udev kmod mtd-utils evtest apt netbase net-tools ifupdown pump iputils-ping dropbear vim-tiny mc htop less usbutils bash-completion screen ntpdate parted
 source=http://www.emdebian.org/grip
 keyring=emdebian-archive-keyring
 components=main
@@ -47,6 +43,7 @@ suite=wheezy-grip
 omitdebsrc=true
 
 [grip3-updates]
+packages=
 source=http://www.emdebian.org/grip
 suite=wheezy-proposed-updates-grip
 keyring=emdebian-archive-keyring
